@@ -1,1 +1,212 @@
-{"type":"FeatureCollection","features":[]}
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.751236,
+     35.668411
+    ]
+   },
+   "properties": {
+    "code": "6573",
+    "company": "Ｇ－ＣＲＡＶＩＡ",
+    "meeting_date": "2026-10-15",
+    "meeting_time": "10:00",
+    "venue_name": "西新橋1丁目ビル",
+    "address": "東京都港区西新橋1-24-14",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260901530293.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都港区西新橋1-24-14",
+    "geocode_matched": "東京都港区西新橋一丁目２４番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.728378,
+     35.621803
+    ]
+   },
+   "properties": {
+    "code": "8141",
+    "company": "新光商",
+    "meeting_date": "2026-10-09",
+    "meeting_time": "10:00",
+    "venue_name": "アートヴィレッジ大崎セントラルタワー13階",
+    "address": "東京都品川区大崎一丁目2番2号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260907532299.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都品川区大崎1丁目2番2号",
+    "geocode_matched": "東京都品川区大崎一丁目２番２号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.763443,
+     35.67997
+    ]
+   },
+   "properties": {
+    "code": "544A",
+    "company": "ＧＭＳグループ",
+    "meeting_date": "2026-11-25",
+    "meeting_time": "",
+    "venue_name": "三菱ビル10F コンファレンススクエアM+ グランド",
+    "address": "東京都千代田区丸の内2丁目5-2",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260904531502.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区丸の内2丁目5-2",
+    "geocode_matched": "東京都千代田区丸の内二丁目５番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.699448,
+     35.686947
+    ]
+   },
+   "properties": {
+    "code": "3923",
+    "company": "ラクス",
+    "meeting_date": "2026-11-18",
+    "meeting_time": "10:00",
+    "venue_name": "新宿マインズタワー 27階 MTG-M",
+    "address": "東京都渋谷区代々木二丁目1番1号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260911534956.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都渋谷区代々木2丁目1番1号",
+    "geocode_matched": "東京都渋谷区代々木二丁目１番１号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.718369,
+     35.634399
+    ]
+   },
+   "properties": {
+    "code": "3932",
+    "company": "アカツキ",
+    "meeting_date": "2026-10-30",
+    "meeting_time": "10:00",
+    "venue_name": "oak meguro 8階 当社イベントスペース",
+    "address": "東京都品川区上大崎二丁目13番30号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260910534060.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都品川区上大崎2丁目13番30号",
+    "geocode_matched": "東京都品川区上大崎二丁目１３番３０号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.722855,
+     35.626427
+    ]
+   },
+   "properties": {
+    "code": "3787",
+    "company": "テクノマセマ",
+    "meeting_date": "2026-11-12",
+    "meeting_time": "",
+    "venue_name": "ホテルマイステイズ五反田駅前 2階ルーチェ",
+    "address": "東京都品川区西五反田二丁目6番8号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260911534771.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都品川区西五反田2丁目6番8号",
+    "geocode_matched": "東京都品川区西五反田二丁目６番８号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.727295,
+     35.669739
+    ]
+   },
+   "properties": {
+    "code": "9399",
+    "company": "ビート",
+    "meeting_date": "2026-11-24",
+    "meeting_time": "10:00",
+    "venue_name": "ホテルアジア会館、2階「会議室A」",
+    "address": "東京都港区赤坂8-10-32",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260914535598.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都港区赤坂8-10-32",
+    "geocode_matched": "東京都港区赤坂八丁目１０番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.749863,
+     35.608696
+    ]
+   },
+   "properties": {
+    "code": "7523",
+    "company": "アールビバン",
+    "meeting_date": "2026-10-20",
+    "meeting_time": "10:00",
+    "venue_name": "グラスキューブ品川 13F アールビバン株式会社本社会議室",
+    "address": "東京都品川区東品川四丁目13番14号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260917537621.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都品川区東品川4丁目13番14号",
+    "geocode_matched": "東京都品川区東品川四丁目１３番１４号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.047302,
+     36.385147
+    ]
+   },
+   "properties": {
+    "code": "8334",
+    "company": "群馬銀",
+    "meeting_date": "2026-12-23",
+    "meeting_time": "10:00",
+    "venue_name": "当行本店3階大会議室",
+    "address": "群馬県前橋市元総社町194番地",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260917537889.pdf",
+    "geocode_source": "address",
+    "geocode_query": "群馬県前橋市元総社町194",
+    "geocode_matched": "群馬県前橋市元総社町１９４番地",
+    "geocode_level": "high"
+   }
+  }
+ ]
+}
