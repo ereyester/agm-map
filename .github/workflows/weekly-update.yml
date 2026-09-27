@@ -20,9 +20,9 @@ jobs:
     env:
       TZ: Asia/Tokyo      # 「今日」の日付を日本時間で扱う
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
@@ -30,7 +30,7 @@ jobs:
         run: pip install requests beautifulsoup4 pdfplumber
 
       # ダウンロード済みPDFを次回以降も使い回す(リポジトリには保存しない)
-      - uses: actions/cache@v4
+      - uses: actions/cache@v6
         with:
           path: pdf_cache
           key: pdf-cache-${{ github.run_id }}
