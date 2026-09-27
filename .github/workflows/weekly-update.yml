@@ -1,0 +1,66 @@
+name: 週1回のデータ更新
+
+on:
+  schedule:
+    # 毎週月曜 7:00(日本時間)。GitHub ActionsはUTCで指定するので日曜22:00
+    - cron: "0 22 * * 0"
+  workflow_dispatch: {}   # Actions画面の「Run workflow」ボタンから手動実行もできる
+
+permissions:
+  contents: write         # 更新したデータをリポジトリに保存するため
+
+concurrency:
+  group: weekly-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      TZ: Asia/Tokyo      # 「今日」の日付を日本時間で扱う
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: ライブラリのインストール
+        run: pip install requests beautifulsoup4 pdfplumber
+
+      # ダウンロード済みPDFを次回以降も使い回す(リポジトリには保存しない)
+      - uses: actions/cache@v4
+        with:
+          path: pdf_cache
+          key: pdf-cache-${{ github.run_id }}
+          restore-keys: pdf-cache-
+
+      - name: TDnetから招集通知を取得(直近31日分、プロマーケット除外)
+        run: |
+          python scripts/tdnet_agm_scraper.py \
+            --out data/this_week.csv \
+            --pdf-dir pdf_cache \
+            --sleep 3
+
+      - name: これまでのデータに統合
+        run: python scripts/merge_agm.py --new data/this_week.csv --all data/agm_all.csv
+
+      - name: 住所を緯度経度に変換して地図用データを作成
+        run: |
+          python scripts/geocode_agm.py \
+            --in data/agm_all.csv \
+            --out docs/agm.geojson \
+            --cache data/geocode_cache.json \
+            --failed data/agm_failed.csv
+
+      - name: 変更があればリポジトリに保存(GitHub Pagesに自動反映)
+        run: |
+          rm -f data/this_week.csv
+          # 毎週必ず1コミットする(60日間コミットがないと定期実行が自動停止されるため)
+          date "+%Y-%m-%d %H:%M" > data/last_run.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898299+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git commit -m "データ更新 $(date +%Y-%m-%d)"
+          git push
