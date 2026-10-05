@@ -207,6 +207,75 @@
     "geocode_matched": "群馬県前橋市元総社町１９４番地",
     "geocode_level": "high"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.779053,
+     35.653156
+    ]
+   },
+   "properties": {
+    "code": "6332",
+    "company": "月島ＨＤ",
+    "meeting_date": "2026-12-04",
+    "meeting_time": "14:00",
+    "venue_name": "ホテルマリナーズコート東京 4階白鳳",
+    "address": "東京都中央区晴海4丁目7-28",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260929542415.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都中央区晴海4丁目7-28",
+    "geocode_matched": "東京都中央区晴海四丁目７番２８号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.106003,
+     35.608322
+    ]
+   },
+   "properties": {
+    "code": "8331",
+    "company": "千葉銀",
+    "meeting_date": "2026-12-23",
+    "meeting_time": "10:00",
+    "venue_name": "当行本店3階大ホール",
+    "address": "千葉市中央区千葉港1番2号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260929541675.pdf",
+    "geocode_source": "address",
+    "geocode_query": "千葉市中央区千葉港1",
+    "geocode_matched": "千葉県千葉市中央区千葉港１番",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.76088,
+     35.693386
+    ]
+   },
+   "properties": {
+    "code": "4069",
+    "company": "Ｇ－ＢｌｕｅＭｅｍｅ",
+    "meeting_date": "2026-10-30",
+    "meeting_time": "10:00",
+    "venue_name": "錦町トラッドスクエア10F 株式会社 BlueMeme 東京本社会議室「Gaudi」",
+    "address": "東京都千代田区神田錦町3-20",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120260930543602.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区神田錦町3-20",
+    "geocode_matched": "東京都千代田区神田錦町三丁目２０番",
+    "geocode_level": "high"
+   }
   }
  ]
 }
