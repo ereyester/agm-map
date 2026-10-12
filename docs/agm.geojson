@@ -276,6 +276,29 @@
     "geocode_matched": "東京都千代田区神田錦町三丁目２０番",
     "geocode_level": "high"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.738815,
+     35.681808
+    ]
+   },
+   "properties": {
+    "code": "9236",
+    "company": "Ｇ－ジャパンＭ＆Ａ",
+    "meeting_date": "2026-10-05",
+    "meeting_time": "",
+    "venue_name": "都市センターホテル 7階",
+    "address": "東京都千代田区平河町二丁目4番1号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261001544908.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区平河町2丁目4番1号",
+    "geocode_matched": "東京都千代田区平河町二丁目４番",
+    "geocode_level": "medium"
+   }
   }
  ]
 }
