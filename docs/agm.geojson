@@ -299,6 +299,98 @@
     "geocode_matched": "東京都千代田区平河町二丁目４番",
     "geocode_level": "medium"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.619232,
+     35.509678
+    ]
+   },
+   "properties": {
+    "code": "6908",
+    "company": "イリソ電子工業",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "新横浜プリンスホテル 4階 「桜川」",
+    "address": "神奈川県横浜市港北区新横浜三丁目4番",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261013549619.pdf",
+    "geocode_source": "address",
+    "geocode_query": "神奈川県横浜市港北区新横浜3丁目4番",
+    "geocode_matched": "神奈川県横浜市港北区新横浜三丁目４番地",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.726898,
+     35.671696
+    ]
+   },
+   "properties": {
+    "code": "3608",
+    "company": "ＴＳＩ　ＨＤ",
+    "meeting_date": "2026-12-24",
+    "meeting_time": "10:00",
+    "venue_name": "住友不動産青山ビル",
+    "address": "東京都港区赤坂8丁目5番27号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261014550688.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都港区赤坂8丁目5番27号",
+    "geocode_matched": "東京都港区赤坂八丁目５番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.335605587036,
+     43.0921620465975
+    ]
+   },
+   "properties": {
+    "code": "3612",
+    "company": "ワールド",
+    "meeting_date": "2026-12-24",
+    "meeting_time": "10:00",
+    "venue_name": "ワールド本社ビル",
+    "address": "26階神戸市中央区港島中町六丁目8番1",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261014550544.pdf",
+    "geocode_source": "address",
+    "geocode_query": "26",
+    "geocode_matched": "北二十六条西九丁目",
+    "geocode_level": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.756332,
+     35.669601
+    ]
+   },
+   "properties": {
+    "code": "2334",
+    "company": "Ｇ－イオレ",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "13:00",
+    "venue_name": "幸ビルディング TKP新橋カンファレンスセンター",
+    "address": "東京都千代田区内幸町1-3-1",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261014550934.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区内幸町1-3-1",
+    "geocode_matched": "東京都千代田区内幸町一丁目３番",
+    "geocode_level": "medium"
+   }
   }
  ]
 }
