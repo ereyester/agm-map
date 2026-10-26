@@ -391,6 +391,75 @@
     "geocode_matched": "東京都千代田区内幸町一丁目３番",
     "geocode_level": "medium"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.909439,
+     35.729446
+    ]
+   },
+   "properties": {
+    "code": "2997",
+    "company": "Ｇ－ストレージ王",
+    "meeting_date": "2026-11-16",
+    "meeting_time": "10:00",
+    "venue_name": "山崎製パン企業年金基金会館4階",
+    "address": "千葉県市川市市川一丁目3番14号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261019552795.pdf",
+    "geocode_source": "address",
+    "geocode_query": "千葉県市川市市川1丁目3番14号",
+    "geocode_matched": "千葉県市川市市川一丁目３番１４号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.769653,
+     35.680706
+    ]
+   },
+   "properties": {
+    "code": "2901",
+    "company": "ウェルディッシュ",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "新槇町ビル1階 TKP東京駅カンファレンスセンターホール1B",
+    "address": "東京都中央区八重洲1丁目8番16号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261020553666.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都中央区八重洲1丁目8番16号",
+    "geocode_matched": "東京都中央区八重洲一丁目８番１６号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.685852,
+     35.684101
+    ]
+   },
+   "properties": {
+    "code": "3676",
+    "company": "デジハＨＤ",
+    "meeting_date": "2026-11-20",
+    "meeting_time": "15:00",
+    "venue_name": "東京オペラシティビル7階会議室1b",
+    "address": "東京都新宿区西新宿三丁目20番2号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261020553650.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都新宿区西新宿3丁目20番2号",
+    "geocode_matched": "東京都新宿区西新宿三丁目２０番２号",
+    "geocode_level": "high"
+   }
   }
  ]
 }
