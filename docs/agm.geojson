@@ -460,6 +460,144 @@
     "geocode_matched": "東京都新宿区西新宿三丁目２０番２号",
     "geocode_level": "high"
    }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.764343,
+     35.687778
+    ]
+   },
+   "properties": {
+    "code": "3276",
+    "company": "ＪＰＭＣ",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "KDDI大手町ビル2階KDDIホール",
+    "address": "東京都千代田区大手町一丁目8番1号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261027556778.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区大手町1丁目8番1号",
+    "geocode_matched": "東京都千代田区大手町一丁目８番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     136.88475,
+     35.172691
+    ]
+   },
+   "properties": {
+    "code": "7434",
+    "company": "オータケ",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "安保ホール",
+    "address": "名古屋市中村区名駅3丁目15番9号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261028557815.pdf",
+    "geocode_source": "address",
+    "geocode_query": "名古屋市中村区名駅3丁目15番9号",
+    "geocode_matched": "愛知県名古屋市中村区名駅三丁目１５番９号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.728378,
+     35.621803
+    ]
+   },
+   "properties": {
+    "code": "4722",
+    "company": "フューチャー",
+    "meeting_date": "2026-11-30",
+    "meeting_time": "15:00",
+    "venue_name": "アートヴィレッジ大崎セントラルタワー フューチャー株式会社 15階会議室「エリン」",
+    "address": "東京都品川区大崎一丁目2番2号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261027557081.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都品川区大崎1丁目2番2号",
+    "geocode_matched": "東京都品川区大崎一丁目２番２号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.704315,
+     35.658569
+    ]
+   },
+   "properties": {
+    "code": "3843",
+    "company": "フリービット",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "",
+    "address": "東京都渋谷区渋谷二丁目22番3号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261028557817.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都渋谷区渋谷2丁目22番3号",
+    "geocode_matched": "東京都渋谷区渋谷二丁目２２番３号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.786179,
+     35.689041
+    ]
+   },
+   "properties": {
+    "code": "9073",
+    "company": "京極運輸",
+    "meeting_date": "2026-12-23",
+    "meeting_time": "10:00",
+    "venue_name": "プラザANSビル3階会議室",
+    "address": "東京都中央区日本橋浜町一丁目1番12号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261028558346.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都中央区日本橋浜町1丁目1番12号",
+    "geocode_matched": "東京都中央区日本橋浜町一丁目１番１２号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.757553,
+     35.706059
+    ]
+   },
+   "properties": {
+    "code": "6960",
+    "company": "フクダ電子",
+    "meeting_date": "2026-12-24",
+    "meeting_time": "10:00",
+    "venue_name": "フクダ電子株式会社本郷新館 1階ホール",
+    "address": "東京都文京区本郷二丁目35番8号",
+    "pdf_url": "https://www.release.tdnet.info/inbs/140120261030561232.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都文京区本郷2丁目35番8号",
+    "geocode_matched": "東京都文京区本郷二丁目３５番８号",
+    "geocode_level": "high"
+   }
   }
  ]
 }
