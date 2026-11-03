@@ -151,19 +151,20 @@ def normalize(text):
 # 「1. 日時」「1 日時」「(1) 開催日時」などの見出しの後ろを取る
 # 見出しとして書かれた「日時」だけを対象にする(本文中の「開催日及び付議議案を決定」などは無視)
 DATETIME_LABEL = re.compile(
-    r"^\s*(?:\d+[.\s]|[((]\d+[))]|[一二三四五六七八九十]+[、.]|[IVX]{1,4}[.\s])?\s*(?:\S{0,12}?の)?"
+    r"^\s*(?:\d+[.\s]|[((]\d+[))]|[一二三四五六七八九十]+[、.]|[IVX]{1,4}[.\s]|[❶-❿①-⑳])?\s*(?:\S{0,12}?の)?"
     r"(?:開催)?(?:予定)?(?:日時|開催日|日程)(?:及び場所|および場所|・場所)?\s*[::]?\s*(.*)"
 )
 # 行頭の見出し(「2. 場所」「(2) 開催場所」など)だけを対象にする
 PLACE_LABEL = re.compile(
     # 「2. 場所」「(2) 開催場所」「2. 臨時株主総会の開催場所」「会場」などに対応
-    r"^\s*(?:\d+[.\s]|[((]\d+[))]|[一二三四五六七八九十]+[、.])?\s*(?:\S{0,12}?の)?(?:開催)?(?:場所|会場)\s*[::]?\s*(.*)"
+    # 「❷ 場所」のような丸数字の見出しにも対応
+    r"^\s*(?:\d+[.\s]|[((]\d+[))]|[一二三四五六七八九十]+[、.]|[❶-❿①-⑳])?\s*(?:\S{0,12}?の)?(?:開催)?(?:場所|会場)\s*[::]?\s*(.*)"
 )
 # 巻末の「会場ご案内図」などは見出しとして扱わない
 PLACE_NOT_LABEL = re.compile(r"^(ご案内|案内図|へのアクセス|のご案内|周辺|地図)")
 # 次の項目の見出し(ここで場所の取得を止める)
 NEXT_SECTION = re.compile(
-    r"^\s*(?:\d+[.\s]|[((]\d+[))]|[一二三四五六七八九十]+[、.]|[IVX]{1,4}[.\s]|【)?\s*(?:\S{0,15}?の)?"
+    r"^\s*(?:\d+[.\s]|[((]\d+[))]|[一二三四五六七八九十]+[、.]|[IVX]{1,4}[.\s]|[❶-❿①-⑳]|【)?\s*(?:\S{0,15}?の)?"
     r"(目的事項|会議の目的|報告事項|決議事項|付議議案|議案|基準日|招集にあたって|議決権|その他|受付|交通|最寄|日時|開催日)"
 )
 # 「2026 年 10 月 28 日」のようにスペースが入っても拾う
@@ -256,6 +257,9 @@ def parse_datetime(text):
 
 
 def parse_place(text):
+    """「場所」見出しの後ろを取る。表紙などにも見出しがあるので、
+    1. 見出しの後ろに住所がある候補  2. 見出しの直前の行に住所がある候補  3. 住所なし の順に優先する"""
+    with_prev_address, candidates = [], []
     lines = text.splitlines()
     for i, line in enumerate(lines):
         m = PLACE_LABEL.match(line)
@@ -270,8 +274,15 @@ def parse_place(text):
         raw = " ".join(chunk).strip()
         # 長すぎる・文章になっているものは会場情報ではない(本文を誤って拾った)と判断
         if raw and len(raw) <= 150 and not re.search(r"(ます|です|予定|次第)[。.]", raw):
-            return raw
-    return ""
+            if ADDRESS_RE.search(raw):
+                return raw
+            # 住所が見出しの直前の行に書かれているレイアウト(住所 ⏎ 「場所」 ⏎ 会場名)
+            prev = lines[i - 1].strip() if i > 0 else ""
+            if ADDRESS_RE.fullmatch(prev):
+                with_prev_address.append(prev + " " + raw)
+            else:
+                candidates.append(raw)
+    return (with_prev_address + candidates or [""])[0]
 
 
 def place_from_datetime_block(text):
@@ -318,6 +329,8 @@ def split_venue_address(raw_place):
     venue = raw_place.replace(address, "") if address else raw_place
     # 住所の頭に見出し(「開催場所」など)が付いてしまった場合は外す
     address = re.sub(r"^.*?(?:場所|会場)\s*[::]?\s*", "", address)
+    # 「(京都駅八条口)」のような短いカッコ書きは中身ごと外し、会場名は残す
+    venue = re.sub(r"[((][^()()]{0,20}[))]", " ", venue)
     # 注記(「末尾の会場ご案内図をご参照ください」など)を落とす
     venue = re.sub(r"[((※【].*$", "", venue)
     venue = re.sub(

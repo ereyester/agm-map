@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-今週取得した招集通知のCSVを、これまでの蓄積データ(data/agm_all.csv)に統合する。
+今週取得した招集通知のCSV(TDnet分・JPX分)を、これまでの蓄積データ(data/agm_all.csv)に統合する。
 
 TDnetは31日分しか残らないため、毎週の結果を貯めていくことで
 総会シーズン全体のデータを保持する。
 
 使い方:
-    python scripts/merge_agm.py --new data/this_week.csv --all data/agm_all.csv
+    python scripts/merge_agm.py --new data/this_week.csv data/jpx_week.csv --all data/agm_all.csv
 """
 import argparse
 import csv
@@ -27,14 +27,18 @@ def read(path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--new", required=True)
+    ap.add_argument("--new", required=True, nargs="+", help="今週取得したCSV(複数指定可)")
     ap.add_argument("--all", required=True)
     ap.add_argument("--keep-days", type=int, default=400,
                     help="開催日がこの日数より前の総会は削除する(既定400日)")
     args = ap.parse_args()
 
     old_fields, old_rows = read(args.all)
-    new_fields, new_rows = read(args.new)
+    new_fields, new_rows = [], []
+    for path in args.new:
+        fields, rows = read(path)
+        new_fields += [k for k in fields if k not in new_fields]
+        new_rows += rows
 
     # 同じ開示資料(pdf_url)は新しい取得結果で上書き
     merged = {r["pdf_url"]: r for r in old_rows if r.get("pdf_url")}

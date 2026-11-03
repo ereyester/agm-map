@@ -16,7 +16,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 330   # 6月の総会シーズンは対象が2,000社を超えるため長めに
     env:
       TZ: Asia/Tokyo      # 「今日」の日付を日本時間で扱う
     steps:
@@ -43,8 +43,17 @@ jobs:
             --pdf-dir pdf_cache \
             --sleep 3
 
+      # 定時株主総会の招集通知はTDnetの一覧に載らないので、東証上場会社情報サービスから取る
+      - name: 東証上場会社情報サービスから招集通知を取得(総会が35日以内の会社)
+        run: |
+          python scripts/jpx_agm_scraper.py \
+            --out data/jpx_week.csv \
+            --known data/agm_all.csv \
+            --pdf-dir pdf_cache \
+            --sleep 2
+
       - name: これまでのデータに統合
-        run: python scripts/merge_agm.py --new data/this_week.csv --all data/agm_all.csv
+        run: python scripts/merge_agm.py --new data/this_week.csv data/jpx_week.csv --all data/agm_all.csv
 
       - name: 住所を緯度経度に変換して地図用データを作成
         run: |
@@ -56,7 +65,7 @@ jobs:
 
       - name: 変更があればリポジトリに保存(GitHub Pagesに自動反映)
         run: |
-          rm -f data/this_week.csv
+          rm -f data/this_week.csv data/jpx_week.csv
           # 毎週必ず1コミットする(60日間コミットがないと定期実行が自動停止されるため)
           date "+%Y-%m-%d %H:%M" > data/last_run.txt
           git config user.name "github-actions[bot]"
