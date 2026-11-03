@@ -55,6 +55,8 @@
     margin: 0;
   }
   .lede { margin: 6px 0 0; color: var(--ink-soft); font-size: 13px; }
+  .last-updated { margin: 4px 0 0; color: var(--ink-soft); font-size: 12px; }
+  .last-updated:empty { display: none; }
 
   .filters {
     padding: 12px 24px 16px;
@@ -194,6 +196,7 @@
   <header>
     <h1>株主総会 会場マップ</h1>
     <p class="lede">上場会社の株主総会が、いつ・どこで開かれるかを地図で探せます。</p>
+    <p class="last-updated" id="last-updated"></p>
   </header>
 
   <div class="filters">
@@ -210,7 +213,7 @@
   <div id="list"></div>
 
   <footer>
-    <p>各社がTDnetで開示した資料から自動で抽出した情報です。日時や会場は変更されることがあるため、出席前に必ず各社の招集通知で確認してください。</p>
+    <p>各社がTDnetと東証上場会社情報サービスで公開した資料(招集通知など)から自動で抽出した情報です。日時や会場は変更されることがあるため、出席前に必ず各社の招集通知で確認してください。</p>
     <p id="updated"></p>
   </footer>
 </aside>
@@ -298,6 +301,13 @@
       };
     });
     document.getElementById("loader").classList.remove("show");
+    // データ作成日時(例 2026-11-02T10:31+09:00)を「最終更新 2026年11月2日(月) 10:31」と表示
+    var u = /^(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})/.exec(geojson.updated || "");
+    if (u) {
+      var ud = new Date(+u[1], +u[2] - 1, +u[3]);
+      document.getElementById("last-updated").textContent =
+        "最終更新 " + u[1] + "年" + fmtDay(ud) + " " + u[4] + ":" + u[5] + "(毎週月曜に自動更新)";
+    }
     var dates = all.map(function (r) { return r.dateStr; }).filter(Boolean).sort();
     if (dates.length) {
       document.getElementById("updated").textContent =

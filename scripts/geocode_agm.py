@@ -19,6 +19,7 @@ tdnet_agm_scraper.py が出力したCSVの住所を、国土地理院の住所�
 
 import argparse
 import csv
+import datetime as dt
 import json
 import re
 import sys
@@ -212,7 +213,9 @@ def main():
 
     cache_path.write_text(json.dumps(cache, ensure_ascii=False, indent=1), encoding="utf-8")
 
-    geojson = {"type": "FeatureCollection", "features": features}
+    # 地図ページに「最終更新」として表示する(GitHub Actions では TZ=Asia/Tokyo)
+    updated = dt.datetime.now().astimezone().isoformat(timespec="minutes")
+    geojson = {"type": "FeatureCollection", "updated": updated, "features": features}
     Path(args.out).write_text(json.dumps(geojson, ensure_ascii=False, indent=1), encoding="utf-8")
 
     failed_path = Path(args.failed) if args.failed else Path(args.out).with_name(Path(args.out).stem + "_failed.csv")
