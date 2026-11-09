@@ -1,6 +1,6 @@
 {
  "type": "FeatureCollection",
- "updated": "2026-11-03T22:53+09:00",
+ "updated": "2026-11-09T10:47+09:00",
  "features": [
   {
    "type": "Feature",
@@ -460,29 +460,6 @@
     "geocode_query": "東京都千代田区大手町1丁目3番7号",
     "geocode_matched": "東京都千代田区大手町一丁目３番",
     "geocode_level": "medium"
-   }
-  },
-  {
-   "type": "Feature",
-   "geometry": {
-    "type": "Point",
-    "coordinates": [
-     139.769653,
-     35.680706
-    ]
-   },
-   "properties": {
-    "code": "2901",
-    "company": "ウェルディッシュ",
-    "meeting_date": "2026-11-26",
-    "meeting_time": "10:00",
-    "venue_name": "新槇町ビル1階 TKP東京駅カンファレンスセンターホール1B",
-    "address": "東京都中央区八重洲1丁目8番16号",
-    "pdf_url": "https://www.release.tdnet.info/inbs/140120261020553666.pdf",
-    "geocode_source": "address",
-    "geocode_query": "東京都中央区八重洲1丁目8番16号",
-    "geocode_matched": "東京都中央区八重洲一丁目８番１６号",
-    "geocode_level": "high"
    }
   },
   {
@@ -1770,6 +1747,1018 @@
     "geocode_source": "address",
     "geocode_query": "愛知県碧南市源氏神明町90",
     "geocode_matched": "愛知県碧南市源氏神明町９０番地",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.71463,
+     35.687523
+    ]
+   },
+   "properties": {
+    "code": "1434",
+    "company": "ＪＥＳＣＯホールディングス",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "四谷区民センター9階四谷区民ホール",
+    "address": "東京都新宿区内藤町87番地",
+    "pdf_url": "https://www2.jpx.co.jp/disc/14340/140120261102562425.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都新宿区内藤町87",
+    "geocode_matched": "東京都新宿区内藤町８７番地",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.490936,
+     35.336945
+    ]
+   },
+   "properties": {
+    "code": "190A",
+    "company": "Ｃｈｏｒｄｉａ　Ｔｈｅｒａｐｅｕｔｉｃｓ",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "湘南鎌倉クリスタルホテル 3階 「フォンテーヌ 」",
+    "address": "神奈川県藤沢市南藤沢14-1",
+    "pdf_url": "https://www2.jpx.co.jp/disc/190A0/140120261027556603.pdf",
+    "geocode_source": "address",
+    "geocode_query": "神奈川県藤沢市南藤沢14-1",
+    "geocode_matched": "神奈川県藤沢市南藤沢１４番１号",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     140.158218,
+     35.733696
+    ]
+   },
+   "properties": {
+    "code": "2164",
+    "company": "地域新聞社",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "ウィシュトンホテル・ユーカリ 5階ロイヤルウィシュトン",
+    "address": "千葉県佐倉市ユーカリが丘四丁目8番1号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/21640/140120261028558639.pdf",
+    "geocode_source": "address",
+    "geocode_query": "千葉県佐倉市ユ-カリが丘4丁目8番1号",
+    "geocode_matched": "千葉県佐倉市ユーカリが丘",
+    "geocode_level": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.707764,
+     35.658569
+    ]
+   },
+   "properties": {
+    "code": "2404",
+    "company": "鉄人化ホールディングス",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "11:00",
+    "venue_name": "TKP渋谷長井記念ホール B2階",
+    "address": "東京都渋谷区渋谷2-12-15",
+    "pdf_url": "https://www2.jpx.co.jp/disc/24040/140120261030560886.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都渋谷区渋谷2-12-15",
+    "geocode_matched": "東京都渋谷区渋谷二丁目１２番１５号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.690445,
+     35.695877
+    ]
+   },
+   "properties": {
+    "code": "244A",
+    "company": "グロースエクスパートナーズ",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "住友不動産新宿グランドタワー5階 ベルサール新宿グランド コンファレンスセンタールームF 第1号議案剰余金処分の件 決議",
+    "address": "東京都新宿区西新宿八丁目17番1号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/244A0/140120261023555307.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都新宿区西新宿8丁目17番1号",
+    "geocode_matched": "東京都新宿区西新宿八丁目１７番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.719604,
+     35.621418
+    ]
+   },
+   "properties": {
+    "code": "2736",
+    "company": "フェスタリアホールディングス",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:30",
+    "venue_name": "TOCビル13階特別ホール",
+    "address": "東京都品川区西五反田七丁目22番17号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/27360/140120261103563335.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都品川区西五反田7丁目22番17号",
+    "geocode_matched": "東京都品川区西五反田七丁目２２番１７号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.769653,
+     35.680706
+    ]
+   },
+   "properties": {
+    "code": "2901",
+    "company": "ウェルディッシュ",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "新槇町ビル1階 TKP東京駅カンファレンスセンターホール1B",
+    "address": "東京都中央区八重洲1丁目8番16号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/29010/140120261029559263.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都中央区八重洲1丁目8番16号",
+    "geocode_matched": "東京都中央区八重洲一丁目８番１６号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.761765,
+     35.692589
+    ]
+   },
+   "properties": {
+    "code": "3046",
+    "company": "ジンズホールディングス",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "安田シーケンスタワー2階",
+    "address": "東京都千代田区神田錦町三丁目1番地",
+    "pdf_url": "https://www2.jpx.co.jp/disc/30460/140120261102563026.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区神田錦町3丁目1番地",
+    "geocode_matched": "東京都千代田区神田錦町三丁目１番",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765076,
+     35.668236
+    ]
+   },
+   "properties": {
+    "code": "367A",
+    "company": "プリモグローバルホールディングス",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "第2号議案資本準備金の額の減少の件 6 コートヤード・マリオット銀座東武ホテル 取締役",
+    "address": "東京都中央区銀座六丁目14番10号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/367A0/140120261102563079.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都中央区銀座6丁目14番10号",
+    "geocode_matched": "東京都中央区銀座六丁目１４番１０号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.715469,
+     35.67445
+    ]
+   },
+   "properties": {
+    "code": "373A",
+    "company": "リップス",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "日本青年館ホテル 8階カンファレンスルームブルー",
+    "address": "東京都新宿区霞ヶ丘町4番1号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/373A0/140120261020553527.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都新宿区霞ヶ丘町4",
+    "geocode_matched": "東京都新宿区霞ヶ丘町４番",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     141.348251,
+     43.066151
+    ]
+   },
+   "properties": {
+    "code": "3987",
+    "company": "エコモット",
+    "meeting_date": "2026-11-25",
+    "meeting_time": "18:00",
+    "venue_name": "アスティ45 16階 ACU-A 大研修室1606 目次 第20期定時株主総会招集ご通知 ...",
+    "address": "札幌市中央区北四条西五丁目1番地",
+    "pdf_url": "https://www2.jpx.co.jp/disc/39870/140120261102563277.pdf",
+    "geocode_source": "address",
+    "geocode_query": "札幌市中央区北四条西5丁目1番地",
+    "geocode_matched": "北海道札幌市中央区北四条西五丁目１番地",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.712769,
+     35.665634
+    ]
+   },
+   "properties": {
+    "code": "4412",
+    "company": "サイエンスアーツ",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "アニヴェルセル表参道 5F",
+    "address": "東京都港区北青山三丁目5番30号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/44120/140120261102563006.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都港区北青山3丁目5番30号",
+    "geocode_matched": "東京都港区北青山三丁目５番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.245911,
+     33.958282
+    ]
+   },
+   "properties": {
+    "code": "7065",
+    "company": "ユーピーアール",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "国際ホテル宇部 3階ダイヤモンドホールII",
+    "address": "山口県宇部市島一丁目7番1号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/70650/140120261030561538.pdf",
+    "geocode_source": "address",
+    "geocode_query": "山口県宇部市島1丁目7番1号",
+    "geocode_matched": "山口県宇部市島一丁目７番１号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.69693,
+     35.65659
+    ]
+   },
+   "properties": {
+    "code": "7351",
+    "company": "グッドパッチ",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "渋谷ソラスタコンファレンス 4D 渋谷ソラスタ4階",
+    "address": "東京都渋谷区道玄坂1丁目21番1号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/73510/140120261030561842.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都渋谷区道玄坂1丁目21番1号",
+    "geocode_matched": "東京都渋谷区道玄坂一丁目２１番１号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.899948,
+     36.559429
+    ]
+   },
+   "properties": {
+    "code": "7730",
+    "company": "マニー",
+    "meeting_date": "2026-11-25",
+    "meeting_time": "17:20",
+    "venue_name": "ライトキューブ宇都宮 3階中ホール 目次 ● 株主総会参考書類",
+    "address": "栃木県宇都宮市宮みらい1番20号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/77300/140120261102563111.pdf",
+    "geocode_source": "address",
+    "geocode_query": "栃木県宇都宮市宮みらい1",
+    "geocode_matched": "栃木県宇都宮市宮みらい１番",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.983368,
+     35.697216
+    ]
+   },
+   "properties": {
+    "code": "9241",
+    "company": "フューチャーリンクネットワーク",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "セミナーハウスクロス・ウェーブ船橋中研修室",
+    "address": "千葉県船橋市本町二丁目9番3号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/92410/140120261102563120.pdf",
+    "geocode_source": "address",
+    "geocode_query": "千葉県船橋市本町2丁目9番3号",
+    "geocode_matched": "千葉県船橋市本町二丁目９番３号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.719193,
+     35.72929
+    ]
+   },
+   "properties": {
+    "code": "9252",
+    "company": "ラストワンマイル",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "14:00",
+    "venue_name": "サンシャインシティ文化会館ビル5階 特別ホール 502号室",
+    "address": "東京都豊島区東池袋三丁目1番",
+    "pdf_url": "https://www2.jpx.co.jp/disc/92520/140120261027556643.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都豊島区東池袋3丁目1番",
+    "geocode_matched": "東京都豊島区東池袋三丁目１番",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.360626,
+     34.488239
+    ]
+   },
+   "properties": {
+    "code": "9264",
+    "company": "ポエック",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "11:00",
+    "venue_name": "福山ニューキャッスルホテル 3階「光耀の間」",
+    "address": "広島県福山市三之丸町8番16号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/92640/140120261030560436.pdf",
+    "geocode_source": "address",
+    "geocode_query": "広島県福山市三之丸町8",
+    "geocode_matched": "広島県福山市三之丸町８番",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.732208,
+     35.666023
+    ]
+   },
+   "properties": {
+    "code": "2449",
+    "company": "プラップジャパン",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "東京ミッドタウンホール&カンファレンス4階 Room5+6 1",
+    "address": "東京都港区赤坂九丁目7番2号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/24490/140120261104563889.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都港区赤坂9丁目7番2号",
+    "geocode_matched": "東京都港区赤坂九丁目７番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.771988,
+     35.683052
+    ]
+   },
+   "properties": {
+    "code": "276A",
+    "company": "ククレブ・アドバイザーズ",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "第3号議案取締役 5名選任の件 八重洲ファーストフィナンシャルビル3階第4号議案監査等委員である取締役3名選 ベルサール八重洲「Room2・3」 任の件 第5号議案取締役",
+    "address": "東京都中央区八重洲一丁目3番7号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/276A0/140120261104564772.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都中央区八重洲1丁目3番7号",
+    "geocode_matched": "東京都中央区八重洲一丁目３番７号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.704758,
+     35.660061
+    ]
+   },
+   "properties": {
+    "code": "3189",
+    "company": "ＡＮＡＰホールディングス",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "朝日生命宮益坂ビル 渋谷サンスカイルーム 5階A室 ―3―",
+    "address": "東京都渋谷区渋谷一丁目9番8号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/31890/140120261104564854.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都渋谷区渋谷1丁目9番8号",
+    "geocode_matched": "東京都渋谷区渋谷一丁目９番８号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.722321,
+     35.623024
+    ]
+   },
+   "properties": {
+    "code": "325A",
+    "company": "ＴＥＮＴＩＡＬ",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "五反田JPビルディング 3階シティホール&ギャラリー五反田",
+    "address": "東京都品川区西五反田八丁目4番13号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/325A0/140120261104563787.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都品川区西五反田8丁目4番13号",
+    "geocode_matched": "東京都品川区西五反田八丁目４番１３号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.74791,
+     35.671192
+    ]
+   },
+   "properties": {
+    "code": "3498",
+    "company": "霞ヶ関キャピタル",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "11:00",
+    "venue_name": "霞が関コモンゲート西館 37階霞山会館霞山の間",
+    "address": "東京都千代田区霞が関三丁目2番1号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/34980/140120261104564199.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区霞が関3丁目2番1号",
+    "geocode_matched": "東京都千代田区霞が関三丁目２番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.713562,
+     35.647106
+    ]
+   },
+   "properties": {
+    "code": "3991",
+    "company": "ウォンテッドリー",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "事業報告 6 連結計算書類 21 エビススバルビル5階「EBiS303」",
+    "address": "東京都渋谷区恵比寿一丁目20番8号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/39910/140120261104563569.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都渋谷区恵比寿1丁目20番8号",
+    "geocode_matched": "東京都渋谷区恵比寿一丁目２０番８号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.769562,
+     35.682667
+    ]
+   },
+   "properties": {
+    "code": "414A",
+    "company": "オーバーラップホールディングス",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "鉃鋼ビルディング南館4階鉃鋼カンファレンスルーム",
+    "address": "東京都千代田区丸の内1丁目8番2号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/414A0/140120261104564315.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区丸の内1丁目8番2号",
+    "geocode_matched": "東京都千代田区丸の内一丁目８番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.736984,
+     35.628574
+    ]
+   },
+   "properties": {
+    "code": "4370",
+    "company": "モビルス",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "京急第7ビル3階知 ビジョンセンター品川 307会議室",
+    "address": "東京都港区高輪四丁目10番8号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/43700/140120261104564138.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都港区高輪4丁目10番8号",
+    "geocode_matched": "東京都港区高輪四丁目１０番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.739365,
+     35.67297
+    ]
+   },
+   "properties": {
+    "code": "5026",
+    "company": "トリプルアイズ",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "関東ITソフトウェア健康保険組合山王健保会館 ― 1 ―",
+    "address": "東京都港区赤坂2丁目5番6号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/50260/140120261104563716.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都港区赤坂2丁目5番6号",
+    "geocode_matched": "東京都港区赤坂二丁目５番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.690445,
+     35.695877
+    ]
+   },
+   "properties": {
+    "code": "6199",
+    "company": "セラク",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "住友不動産新宿グランドタワー5階 ベルサール新宿グランドコンファレンスセンター 末尾の会場ご案内図をご参照ください。",
+    "address": "東京都新宿区西新宿八丁目17番1号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/61990/140120261104564409.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都新宿区西新宿8丁目17番1号",
+    "geocode_matched": "東京都新宿区西新宿八丁目１７番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.499054,
+     34.731327
+    ]
+   },
+   "properties": {
+    "code": "6522",
+    "company": "アスタリスク",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:30",
+    "venue_name": "新大阪トヨタビル9F アットビジネスセンターPREMIUM新大阪 911号室",
+    "address": "大阪市淀川区西中島5-14-10",
+    "pdf_url": "https://www2.jpx.co.jp/disc/65220/140120260930543338.pdf",
+    "geocode_source": "address",
+    "geocode_query": "大阪市淀川区西中島5-14-10",
+    "geocode_matched": "大阪府大阪市淀川区西中島五丁目１４番１０号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     133.360626,
+     34.488239
+    ]
+   },
+   "properties": {
+    "code": "6668",
+    "company": "アドテック　プラズマ　テクノロジー",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "福山ニューキャッスルホテル3階光耀の間 目次 第42回定時株主総会招集ご通知..................... 1",
+    "address": "広島県福山市三之丸町8番16号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/66680/140120261102562826.pdf",
+    "geocode_source": "address",
+    "geocode_query": "広島県福山市三之丸町8",
+    "geocode_matched": "広島県福山市三之丸町８番",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.790298,
+     35.873638
+    ]
+   },
+   "properties": {
+    "code": "7581",
+    "company": "サイゼリヤ",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "11:00",
+    "venue_name": "越谷コミュニティセンター",
+    "address": "埼玉県越谷市南越谷1-2876-1",
+    "pdf_url": "https://www2.jpx.co.jp/disc/75810/140120261104564484.pdf",
+    "geocode_source": "address",
+    "geocode_query": "埼玉県越谷市南越谷1-2876-1",
+    "geocode_matched": "埼玉県越谷市南越谷一丁目２８７６番地",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.69693,
+     35.65659
+    ]
+   },
+   "properties": {
+    "code": "7818",
+    "company": "トランザクション",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "渋谷ソラスタコンファレンス[4階]",
+    "address": "東京都渋谷区道玄坂一丁目21番1号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/78180/140120261102562577.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都渋谷区道玄坂1丁目21番1号",
+    "geocode_matched": "東京都渋谷区道玄坂一丁目２１番１号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.733948,
+     35.67704
+    ]
+   },
+   "properties": {
+    "code": "8783",
+    "company": "ａｂｃ",
+    "meeting_date": "2026-11-30",
+    "meeting_time": "15:00",
+    "venue_name": "アットビジネスセンター サテライト赤坂見附 201号室",
+    "address": "東京都港区元赤坂1丁目3-13",
+    "pdf_url": "https://www2.jpx.co.jp/disc/87830/140120261104564092.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都港区元赤坂1丁目3-13",
+    "geocode_matched": "東京都港区元赤坂一丁目３番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.620865,
+     35.594444
+    ]
+   },
+   "properties": {
+    "code": "9978",
+    "company": "文教堂グループホールディングス",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:00",
+    "venue_name": "集 ご HOTEL ARU KSP 3階 KSPホール通 知",
+    "address": "神奈川県川崎市高津区坂戸三丁目2番1号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/99780/140120261104564282.pdf",
+    "geocode_source": "address",
+    "geocode_query": "神奈川県川崎市高津区坂戸3丁目2番1号",
+    "geocode_matched": "神奈川県川崎市高津区坂戸三丁目２番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     131.346695,
+     34.042114
+    ]
+   },
+   "properties": {
+    "code": "9983",
+    "company": "ファーストリテイリング",
+    "meeting_date": "2026-11-26",
+    "meeting_time": "10:30",
+    "venue_name": "本社会議棟大会議室",
+    "address": "山口県山口市佐山10717番地1",
+    "pdf_url": "https://www2.jpx.co.jp/disc/99830/140120261030561427.pdf",
+    "geocode_source": "address",
+    "geocode_query": "山口県山口市佐山10717",
+    "geocode_matched": "山口県山口市佐山",
+    "geocode_level": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.703552,
+     35.686897
+    ]
+   },
+   "properties": {
+    "code": "245A",
+    "company": "ＩＮＧＳ",
+    "meeting_date": "2026-11-30",
+    "meeting_time": "10:00",
+    "venue_name": "住友不動産新宿南口ビル ベルサール新宿南口4階 Room1+2",
+    "address": "東京都渋谷区千駄ヶ谷五丁目31番11号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/245A0/140120261105565729.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都渋谷区千駄ヶ谷5丁目31番11号",
+    "geocode_matched": "東京都渋谷区千駄ケ谷五丁目３１番１１号",
+    "geocode_level": "low"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.769562,
+     35.682667
+    ]
+   },
+   "properties": {
+    "code": "3174",
+    "company": "ハピネス・アンド・ディ",
+    "meeting_date": "2026-11-28",
+    "meeting_time": "13:00",
+    "venue_name": "丸の内トラストタワーN館11階トラストシティカンファレン ス・丸の内room1",
+    "address": "東京都千代田区丸の内1-8-1",
+    "pdf_url": "https://www2.jpx.co.jp/disc/31740/140120261105566072.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区丸の内1-8-1",
+    "geocode_matched": "東京都千代田区丸の内一丁目８番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.214569,
+     34.664421
+    ]
+   },
+   "properties": {
+    "code": "3536",
+    "company": "アクサスホールディングス",
+    "meeting_date": "2026-11-25",
+    "meeting_time": "13:00",
+    "venue_name": "神戸ポートピアホテル本館B1F 会場及び最寄り駅は末尾の「株主総会会場のご案内」をご 参照ください。",
+    "address": "兵庫県神戸市中央区港島中町6丁目10番地1",
+    "pdf_url": "https://www2.jpx.co.jp/disc/35360/140120261105566022.pdf",
+    "geocode_source": "address",
+    "geocode_query": "兵庫県神戸市中央区港島中町6丁目10番地1",
+    "geocode_matched": "兵庫県神戸市中央区港島中町六丁目１０番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.763214,
+     35.693214
+    ]
+   },
+   "properties": {
+    "code": "3560",
+    "company": "ほぼ日",
+    "meeting_date": "2026-11-28",
+    "meeting_time": "14:00",
+    "venue_name": "開催 場所神田スクエア2F 「スクエアホール」",
+    "address": "東京都千代田区神田錦町二丁目2番地1",
+    "pdf_url": "https://www2.jpx.co.jp/disc/35600/140120261105565113.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区神田錦町2丁目2番地1",
+    "geocode_matched": "東京都千代田区神田錦町二丁目２番",
+    "geocode_level": "medium"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.753067,
+     35.67173
+    ]
+   },
+   "properties": {
+    "code": "4397",
+    "company": "チームスピリット",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "知 イイノカンファレンスセンター Room B",
+    "address": "東京都千代田区内幸町二丁目1番1号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/43970/140120261105564980.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区内幸町2丁目1番1号",
+    "geocode_matched": "東京都千代田区内幸町二丁目１番１号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.715378,
+     35.731491
+    ]
+   },
+   "properties": {
+    "code": "4433",
+    "company": "ヒト・コミュニケーションズ・ホールディングス",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "としま区民センター 6階小ホール ― 1 ―",
+    "address": "東京都豊島区東池袋一丁目20番10号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/44330/140120261105565780.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都豊島区東池袋1丁目20番10号",
+    "geocode_matched": "東京都豊島区東池袋一丁目２０番１０号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.704315,
+     35.658569
+    ]
+   },
+   "properties": {
+    "code": "5578",
+    "company": "ＡＲアドバンストテクノロジ",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "渋谷東口ビル 1階 TKPガーデンシティ渋谷ホールB",
+    "address": "東京都渋谷区渋谷二丁目22番3号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/55780/140120261104564516.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都渋谷区渋谷2丁目22番3号",
+    "geocode_matched": "東京都渋谷区渋谷二丁目２２番３号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     135.506836,
+     34.691498
+    ]
+   },
+   "properties": {
+    "code": "5580",
+    "company": "プロディライト",
+    "meeting_date": "2026-11-27",
+    "meeting_time": "10:00",
+    "venue_name": "大阪証券取引所ビル3階北浜フォーラム",
+    "address": "大阪市中央区北浜一丁目8番16号",
+    "pdf_url": "https://www2.jpx.co.jp/disc/55800/140120261105565410.pdf",
+    "geocode_source": "address",
+    "geocode_query": "大阪市中央区北浜1丁目8番16号",
+    "geocode_matched": "大阪府大阪市中央区北浜一丁目８番１６号",
+    "geocode_level": "high"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.747299,
+     35.701767
+    ]
+   },
+   "properties": {
+    "code": "589A",
+    "company": "ネイス",
+    "meeting_date": "2026-11-30",
+    "meeting_time": "10:00",
+    "venue_name": "議案取締役1名選任の件 住友不動産飯田橋駅前ビル1 2F Room1",
+    "address": "東京都千代田区飯田橋3-8-5",
+    "pdf_url": "https://www2.jpx.co.jp/disc/589A0/140120261105565705.pdf",
+    "geocode_source": "address",
+    "geocode_query": "東京都千代田区飯田橋3-8-5",
+    "geocode_matched": "東京都千代田区飯田橋三丁目８番５号",
     "geocode_level": "high"
    }
   }
